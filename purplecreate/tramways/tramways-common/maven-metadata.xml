@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>purplecreate.tramways</groupId>
+  <artifactId>tramways-common</artifactId>
+  <versioning>
+    <latest>0.2.0-mc1.20.1-common</latest>
+    <release>0.2.0-mc1.20.1-common</release>
+    <versions>
+      <version>0.2.0-mc1.20.1-common</version>
+    </versions>
+    <lastUpdated>20250302152536</lastUpdated>
+  </versioning>
+</metadata>

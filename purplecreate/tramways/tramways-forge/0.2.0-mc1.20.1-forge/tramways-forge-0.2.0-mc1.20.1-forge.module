@@ -1,0 +1,131 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "purplecreate.tramways",
+    "module": "tramways-forge",
+    "version": "0.2.0-mc1.20.1-forge",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.8"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "tramways-forge-0.2.0-mc1.20.1-forge.jar",
+          "url": "tramways-forge-0.2.0-mc1.20.1-forge.jar",
+          "size": 799993,
+          "sha512": "e3b416e8bb4784e0f24ba555dd8a5f4c6018007ad09fca79593d45cfe54a5d1f527a78493eec1ecddc28b9855a1ad4acb1eeed0c0166322007a36ecf8bba9574",
+          "sha256": "592cfc706dc6b9c8ee57ee0df3529e795c28ed9c1c714e5246900e083cf155e7",
+          "sha1": "2afad29844afe2c3cd35e414784c2000bb9ecc05",
+          "md5": "b7cb4082aee68bdd78696ce7eb586559"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.llamalad7",
+          "module": "mixinextras-forge",
+          "version": {
+            "requires": "0.3.5"
+          }
+        },
+        {
+          "group": "javazoom",
+          "module": "jlayer",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "com.simibubi.create",
+          "module": "create-1.20.1",
+          "version": {
+            "requires": "0.5.1.j-55"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ],
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "create-1.20.1",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "slim"
+            }
+          }
+        },
+        {
+          "group": "com.tterrag.registrate",
+          "module": "Registrate",
+          "version": {
+            "requires": "MC1.20-1.3.3"
+          }
+        },
+        {
+          "group": "com.jozufozu.flywheel",
+          "module": "flywheel-forge-1.20.1",
+          "version": {
+            "requires": "0.6.11-13"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "tramways-forge-0.2.0-mc1.20.1-forge.jar",
+          "url": "tramways-forge-0.2.0-mc1.20.1-forge.jar",
+          "size": 799993,
+          "sha512": "e3b416e8bb4784e0f24ba555dd8a5f4c6018007ad09fca79593d45cfe54a5d1f527a78493eec1ecddc28b9855a1ad4acb1eeed0c0166322007a36ecf8bba9574",
+          "sha256": "592cfc706dc6b9c8ee57ee0df3529e795c28ed9c1c714e5246900e083cf155e7",
+          "sha1": "2afad29844afe2c3cd35e414784c2000bb9ecc05",
+          "md5": "b7cb4082aee68bdd78696ce7eb586559"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "tramways-forge-0.2.0-mc1.20.1-forge-sources.jar",
+          "url": "tramways-forge-0.2.0-mc1.20.1-forge-sources.jar",
+          "size": 388775,
+          "sha512": "79ef46556764d6188ce8d183dbe4aba697ced46af6d7780bb501215dda6b48a207ae81fd95c2a52e095dbf3b545364cd7f1709110e32b6dc8439a5e5f56e4336",
+          "sha256": "dff2fb37ed6e09abe7a60afdff9dfb0ac4fb58d230845ef33b4ecc3cc607668a",
+          "sha1": "aec64b3c9ae4a786be792918a08773b56a820e91",
+          "md5": "6f9879d39da3f9a6a5b17965110f33f1"
+        }
+      ]
+    }
+  ]
+}
