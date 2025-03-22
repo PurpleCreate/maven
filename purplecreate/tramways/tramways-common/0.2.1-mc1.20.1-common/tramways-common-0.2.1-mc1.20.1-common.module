@@ -1,0 +1,103 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "purplecreate.tramways",
+    "module": "tramways-common",
+    "version": "0.2.1-mc1.20.1-common",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.8"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "tramways-common-0.2.1-mc1.20.1-common.jar",
+          "url": "tramways-common-0.2.1-mc1.20.1-common.jar",
+          "size": 345296,
+          "sha512": "4b9e76551fb73a2231c54b957ed38d9ec1109837e4492097229295188cd4c54694c3f9807df95ee4e9888a01c147abdbf0aa9d9dcc57e15573c7ce19fcfdd9c5",
+          "sha256": "2eca0eaeb759bfdb9d6e4395cd7f1a980d930d660b5eca7ce48d41e19e6838eb",
+          "sha1": "9d5fec530be14852a01c822e011dbc3482ccb9c8",
+          "md5": "833ca99f34f2c17a141db147289807bf"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "javazoom",
+          "module": "jlayer",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "io.github.llamalad7",
+          "module": "mixinextras-common",
+          "version": {
+            "requires": "0.3.5"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "tramways-common-0.2.1-mc1.20.1-common.jar",
+          "url": "tramways-common-0.2.1-mc1.20.1-common.jar",
+          "size": 345296,
+          "sha512": "4b9e76551fb73a2231c54b957ed38d9ec1109837e4492097229295188cd4c54694c3f9807df95ee4e9888a01c147abdbf0aa9d9dcc57e15573c7ce19fcfdd9c5",
+          "sha256": "2eca0eaeb759bfdb9d6e4395cd7f1a980d930d660b5eca7ce48d41e19e6838eb",
+          "sha1": "9d5fec530be14852a01c822e011dbc3482ccb9c8",
+          "md5": "833ca99f34f2c17a141db147289807bf"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "tramways-common-0.2.1-mc1.20.1-common-sources.jar",
+          "url": "tramways-common-0.2.1-mc1.20.1-common-sources.jar",
+          "size": 237655,
+          "sha512": "43169d2b55f8497ae7a729d50e0e6d002f7a6b125e924ba00d04bc9ea243c5ad9d1bd02fcc39cbb6f0cffd5fb34f628b31ef3aad5fe2cf8d865a12bdd3898c73",
+          "sha256": "2cb27317f69e797580a3352b036485662d6c844032ca3e10a169cfaf32787bf7",
+          "sha1": "d72c256063bcfbddf769838c5445deaae8517031",
+          "md5": "a204c1a673262a102b2e89d5ac88074b"
+        }
+      ]
+    }
+  ]
+}

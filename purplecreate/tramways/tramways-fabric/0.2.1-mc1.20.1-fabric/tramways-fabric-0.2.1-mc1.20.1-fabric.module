@@ -1,0 +1,110 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "purplecreate.tramways",
+    "module": "tramways-fabric",
+    "version": "0.2.1-mc1.20.1-fabric",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.8"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "tramways-fabric-0.2.1-mc1.20.1-fabric.jar",
+          "url": "tramways-fabric-0.2.1-mc1.20.1-fabric.jar",
+          "size": 645419,
+          "sha512": "29ccdfdeba1b794ee72d582114ed14698ddc11b2d81c1cbaa057d59a3354f6610c0a906f84eb25585c93dc7b2df65f598c27b9d9fb0f21a84d1ed80198b59f2d",
+          "sha256": "023053d9b558ced301e4fe2254e85d96c17ae44effddeea343e4ab0e1bfb5230",
+          "sha1": "55ea158386fc57a4c80a3fdbd780891656b278e8",
+          "md5": "5249e7fc9104507a999ea9fb4d9da00d"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "javazoom",
+          "module": "jlayer",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.3"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.2+1.20.1"
+          }
+        },
+        {
+          "group": "com.simibubi.create",
+          "module": "create-fabric-1.20.1",
+          "version": {
+            "requires": "0.5.1-j-build.1631+mc1.20.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "tramways-fabric-0.2.1-mc1.20.1-fabric.jar",
+          "url": "tramways-fabric-0.2.1-mc1.20.1-fabric.jar",
+          "size": 645419,
+          "sha512": "29ccdfdeba1b794ee72d582114ed14698ddc11b2d81c1cbaa057d59a3354f6610c0a906f84eb25585c93dc7b2df65f598c27b9d9fb0f21a84d1ed80198b59f2d",
+          "sha256": "023053d9b558ced301e4fe2254e85d96c17ae44effddeea343e4ab0e1bfb5230",
+          "sha1": "55ea158386fc57a4c80a3fdbd780891656b278e8",
+          "md5": "5249e7fc9104507a999ea9fb4d9da00d"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "tramways-fabric-0.2.1-mc1.20.1-fabric-sources.jar",
+          "url": "tramways-fabric-0.2.1-mc1.20.1-fabric-sources.jar",
+          "size": 391672,
+          "sha512": "fff123b564bc988e02f92600ddfd70157b44b9deefa4ccea7a17c904625318b4fe5f7edc68d930462751ad7fb0d5378907b4d7e9ba6963178fd566accc7ab9c7",
+          "sha256": "a0eb3229c4dee61e04077051fbceae325b6f1f158fa0563d153bf8431c774c50",
+          "sha1": "3a05851848d9653a31beeb3f300c08de19e7b4ca",
+          "md5": "ffc90fd7fbf7c8686932e08ccda615a6"
+        }
+      ]
+    }
+  ]
+}
