@@ -3,13 +3,14 @@
   <groupId>purplecreate.tramways</groupId>
   <artifactId>tramways-forge</artifactId>
   <versioning>
-    <latest>0.2.1-mc1.20.1-forge-1</latest>
-    <release>0.2.1-mc1.20.1-forge-1</release>
+    <latest>0.2.2-mc1.20.1-forge</latest>
+    <release>0.2.2-mc1.20.1-forge</release>
     <versions>
       <version>0.2.0-mc1.20.1-forge</version>
       <version>0.2.1-mc1.20.1-forge</version>
       <version>0.2.1-mc1.20.1-forge-1</version>
+      <version>0.2.2-mc1.20.1-forge</version>
     </versions>
-    <lastUpdated>20250405213830</lastUpdated>
+    <lastUpdated>20250513205123</lastUpdated>
   </versioning>
 </metadata>
