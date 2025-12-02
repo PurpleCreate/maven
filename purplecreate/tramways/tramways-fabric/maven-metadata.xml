@@ -3,8 +3,8 @@
   <groupId>purplecreate.tramways</groupId>
   <artifactId>tramways-fabric</artifactId>
   <versioning>
-    <latest>0.3.2-mc1.20.1-fabric</latest>
-    <release>0.3.2-mc1.20.1-fabric</release>
+    <latest>0.3.2-next-1-mc1.20.1-fabric</latest>
+    <release>0.3.2-next-1-mc1.20.1-fabric</release>
     <versions>
       <version>0.2.0-mc1.20.1-fabric</version>
       <version>0.2.1-mc1.20.1-fabric</version>
@@ -13,7 +13,8 @@
       <version>0.3.0-mc1.20.1-fabric</version>
       <version>0.3.1-mc1.20.1-fabric</version>
       <version>0.3.2-mc1.20.1-fabric</version>
+      <version>0.3.2-next-1-mc1.20.1-fabric</version>
     </versions>
-    <lastUpdated>20251026194539</lastUpdated>
+    <lastUpdated>20251202194707</lastUpdated>
   </versioning>
 </metadata>

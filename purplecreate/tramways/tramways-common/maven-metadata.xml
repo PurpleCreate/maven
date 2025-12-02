@@ -3,8 +3,8 @@
   <groupId>purplecreate.tramways</groupId>
   <artifactId>tramways-common</artifactId>
   <versioning>
-    <latest>0.3.2-mc1.20.1-common</latest>
-    <release>0.3.2-mc1.20.1-common</release>
+    <latest>0.3.2-next-1-mc1.20.1-common</latest>
+    <release>0.3.2-next-1-mc1.20.1-common</release>
     <versions>
       <version>0.2.0-mc1.20.1-common</version>
       <version>0.2.1-mc1.20.1-common</version>
@@ -13,7 +13,8 @@
       <version>0.3.0-mc1.20.1-common</version>
       <version>0.3.1-mc1.20.1-common</version>
       <version>0.3.2-mc1.20.1-common</version>
+      <version>0.3.2-next-1-mc1.20.1-common</version>
     </versions>
-    <lastUpdated>20251026194547</lastUpdated>
+    <lastUpdated>20251202194712</lastUpdated>
   </versioning>
 </metadata>
